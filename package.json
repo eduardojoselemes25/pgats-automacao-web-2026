@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --spec \"cypress/e2e/1-getting-started/automation-exercise.cy.js\"",
+    "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +12,8 @@
   "description": "",
   "devDependencies": {
     "@faker-js/faker": "^10.6.0",
-    "cypress": "^13.7.3"
+    "cypress": "^13.7.3",
+    "cypress-mochawesome-reporter": "^3.8.4"
   },
   "dependencies": {
     "cypress-xpath": "^2.0.1"

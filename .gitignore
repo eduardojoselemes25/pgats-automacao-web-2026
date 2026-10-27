@@ -4,3 +4,9 @@ node_modules/
 cypress/screenshots/
 cypress/videos/
 cypress/downloads/
+
+# macOS
+.DS_Store
+
+# Mochawesome temporary JSON files
+cypress/reports/html/.jsons/
